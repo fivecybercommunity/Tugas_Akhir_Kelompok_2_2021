@@ -1,0 +1,4 @@
+Gya : Page Utama
+Raph :Page Anggota
+Qois : Page Karya (HASIL KARYA)
+Razi : Footer Header
