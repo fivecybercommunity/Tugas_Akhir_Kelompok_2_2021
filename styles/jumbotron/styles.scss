@@ -1,11 +1,48 @@
-@use "/styles/headfoot/headerfooter";
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 body {
-  background-color: black;
+  background-color:black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 150px;
+  background-image: radial-gradient( #212121, #000000);
 }
 
-h1,
-h2 {
-  color: white;
-  font-family: "Roboto", sans-serif;
+h1 {
+  color:#ffffff;
+  font-family: 'Noto Serif', serif;
+  font-size: 67px;
+  margin-bottom: 1px;
+}
+p {
+  font-family: 'Roboto', sans-serif;
+  color: #FFFFFF  ;
+  margin-bottom: 30px;
+}
+.judul {
+ 
+  margin-right: 250px;
+}
+.tombol-explore{
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  color:#FCB632;
+  border: 1.7px solid #686868;
+  width: 100px;
+  padding-top: 10px ;
+  padding-bottom: 10px ;
+  padding-left: 17px ;
+  padding-right: 17px ;
+  margin-top: 1000px;
+
+}
+.tulisan-fcc {
+  margin-left: 80px;
+}
+.tombol-explore:hover {
+  background-color: #fcb632 ;
+  color: #ffffff;
+
 }
