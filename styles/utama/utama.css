@@ -1,22 +1,40 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 body {
   background-color: #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 h2, h3, h4, p {
   color: #FFFFFF;
-  font-family: "Roboto", "sans-serif";
+  font-family: "Roboto","sans-serif";
 }
 
 .judul {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .subjudul {
@@ -32,36 +50,59 @@ b {
 .deskripsifcc {
   color: rgba(255, 255, 255, 0.7);
   text-align: center;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   padding-left: 25%;
   padding-right: 25%;
 }
 
 h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-top: 175px;
   margin-bottom: 100px;
   font-size: 22px;
 }
 
 .divisi {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   gap: 60px;
 }
 
 .divisibagian {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   color: #FFFFFF;
   text-align: right;
   width: 300px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#141414), to(#000000));
   background-image: linear-gradient(to bottom, #141414, #000000);
   padding-right: 35px;
   padding-left: 35px;
@@ -90,12 +131,18 @@ h3 {
 
 .tombol-member {
   color: #FCB632;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-top: 175px;
   text-decoration: none;
-  font-family: "Roboto", "sans-serif";
+  font-family: "Roboto","sans-serif";
   font-weight: 400;
   border: 1.7px solid #686868;
   width: 100px;
@@ -108,4 +155,5 @@ h3 {
 .tombol-member:hover {
   background-color: #fcb632;
   color: #ffffff;
-}/*# sourceMappingURL=utama.css.map */
+}
+/*# sourceMappingURL=utama.css.map */
