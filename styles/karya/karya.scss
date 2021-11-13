@@ -77,3 +77,24 @@ h1 {
    font-weight: 400;
    margin-top: 40px;
 }
+
+.website-portofolio {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+}
+
+.tombol-panah {
+   border: none;
+   background-color: transparent;
+}
+
+#portofolio-1, #portofolio-2, #portofolio-3, #portofolio-4 {
+   width: 500px;
+   display: none;
+}
+
+#portofolio-1 {
+   display: block;
+}

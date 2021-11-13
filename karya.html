@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Projects</title>
     <link rel="stylesheet" href="./styles/karya/karya.css">
+    <script src='./scripts/website.js'></script>
 </head>
 <body>
     <div class='jumbotron-karya'>
@@ -16,15 +17,27 @@
     <!-- --------------------------------------------------------------- -->
     <div class='project-list'>
         <div class='project'>
-           <h2 class='judul-project'>Portofolio Websites</h2>
-           
-           <img class='project-image' src="./src/test-image.svg" alt="">
-            <p class='project-keterangan'>Keterangan</p>
+            <h2 class='judul-project'>Portofolio Websites</h2>
+
+            <div class='website-portofolio'>
+                <button class='tombol-panah' id='kiri' onclick='action(this.id);'><img src="./src/panah-kiri.svg" alt=""></button>
+
+                <a href='https://nohaitch.github.io/MyUniverse/'> <img id='portofolio-1' src="./src/projects/francisco-portofolio.png" alt=""> </a>
+                <a href='https://rzyyyyy.github.io/Portfolio/
+'> <img id='portofolio-2' src="./src/projects/razi-portofolio.png" alt=""> </a>
+                <a href='https://syafigya.github.io/Portfolio/'> <img id='portofolio-3' src="./src/projects/syafigya-portofolio.png" alt=""> </a>
+                <a href='https://qois-69912.github.io/portofolio/'> <img id='portofolio-4' src="./src/projects/qois-portofolio.png" alt=""> </a>
+
+                <a href=""></a>
+
+                <button class='tombol-panah' id='kanan' onclick='action(this.id)'><img src="./src/panah-kanan.svg" alt=""></button>
+            </div>
+            <p id='keterangan-portofolio' class='project-keterangan'>Portofolio Francisco</p>
         </div>
 
         <div class='project'>
-            <h2 class='judul-project'>Other Projects</h2>
-            <img class='project-image' src="./src/test-image.svg" alt="">
+            <h2 class='judul-project'>Website Pilketos</h2>
+            <a href='https://github.com/fivecybercommunity/Front-End-Pilketos'><img class='project-image' src="./src/projects/website-pilketos.png" alt=""></a>
             <p class='project-keterangan'>Keterangan</p>
         </div>
     </div>
