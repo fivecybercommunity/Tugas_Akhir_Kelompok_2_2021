@@ -104,4 +104,16 @@ h3{
 .tombol-member:hover{
   background-color: #fcb632 ;
   color: #ffffff;
+  
+}
+
+$mobile : 480px; 
+@media (max-width:$mobile) {
+  .divisi {
+    flex-direction: column;
+  }
+  .developer {
+    margin-bottom: 100px;
+  }
+ 
 }
