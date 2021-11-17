@@ -1,1 +1,121 @@
-/* No CSS *//*# sourceMappingURL=utama.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+body {
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2, h3, h4, p {
+  color: #FFFFFF;
+  font-family: "Roboto", "sans-serif";
+}
+
+.judul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.subjudul {
+  font-weight: 400;
+  color: #FCB632;
+  margin-top: 0px;
+}
+
+b {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.deskripsifcc {
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+  margin-top: 175px;
+  margin-bottom: 100px;
+  font-size: 22px;
+}
+
+.divisi {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.divisibagian {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #FFFFFF;
+  text-align: right;
+  width: 300px;
+  background-image: linear-gradient(to bottom, #141414, #000000);
+  padding-right: 35px;
+  padding-left: 35px;
+}
+
+.logo-developer {
+  width: 250px;
+}
+
+.logo-designer {
+  width: 260px;
+}
+
+.penjelasandivisi {
+  text-align: left;
+}
+
+.namadivisi {
+  color: #FCB632;
+}
+
+.judulutama {
+  font-size: 45px;
+  margin-bottom: 0px;
+}
+
+.tombol-member {
+  color: #FCB632;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 175px;
+  text-decoration: none;
+  font-family: "Roboto", "sans-serif";
+  font-weight: 400;
+  border: 1.7px solid #686868;
+  width: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 17px;
+  padding-right: 17px;
+}
+
+.tombol-member:hover {
+  background-color: #fcb632;
+  color: #ffffff;
+}
+
+@media (max-width: 480px) {
+  .divisi {
+    flex-direction: column;
+  }
+
+  .developer {
+    margin-bottom: 100px;
+  }
+}/*# sourceMappingURL=utama.css.map */
