@@ -9,36 +9,65 @@
     <script src='./scripts/website.js'></script>
 </head>
 <body>
+    <!-- Jumbotron Page Karya -->
     <div class='jumbotron-karya'>
         <img class='gambar-jumbotron' src="./src/logo-page3.svg" alt="">
         <h1>FIVE CYBER COMMUNITY PROJECTS</h1>
     </div>
 
+
     <!-- --------------------------------------------------------------- -->
+
+
+    <!-- Project List -->
     <div class='project-list'>
+
+
         <div class='project'>
             <h2 class='judul-project'>Portofolio Websites</h2>
 
             <div class='website-portofolio'>
-                <button class='tombol-panah' id='kiri' onclick='action(this.id);'><img src="./src/panah-kiri.svg" alt=""></button>
+                <button class='tombol-panah' id='kiri' onclick='action(this.id);'>
+                    <img class='gambar-panah' src="./src/panah-kiri.svg">
+                </button>
 
-                <a href='https://nohaitch.github.io/MyUniverse/'> <img id='portofolio-1' src="./src/projects/francisco-portofolio.png" alt=""> </a>
-                <a href='https://rzyyyyy.github.io/Portfolio/
-'> <img id='portofolio-2' src="./src/projects/razi-portofolio.png" alt=""> </a>
-                <a href='https://syafigya.github.io/Portfolio/'> <img id='portofolio-3' src="./src/projects/syafigya-portofolio.png" alt=""> </a>
-                <a href='https://qois-69912.github.io/portofolio/'> <img id='portofolio-4' src="./src/projects/qois-portofolio.png" alt=""> </a>
 
-                <a href=""></a>
+                <!-- Website Portofolio -->
+                <a class='project-card' id='portofolio-1' href='https://nohaitch.github.io/MyUniverse/'>
+                    <img class='image-portofolio' src="./src/projects/francisco-portofolio.png"><br>
+                    <p class='project-keterangan'>Website Francisco</p>
+                </a>
 
-                <button class='tombol-panah' id='kanan' onclick='action(this.id)'><img src="./src/panah-kanan.svg" alt=""></button>
+                <a class='project-card' id='portofolio-2' href='https://rzyyyyy.github.io/Portfolio/'>
+                    <img class='image-portofolio' src="./src/projects/razi-portofolio.png">
+                    <p class='project-keterangan'>Website Razi</p>
+                </a>
+
+               <a class='project-card' id='portofolio-3' href='https://syafigya.github.io/Portfolio/'>
+                   <img class='image-portofolio' src="./src/projects/syafigya-portofolio.png">
+                   <p class='project-keterangan'>Website Syafigya</p>
+               </a>
+
+               <a class='project-card' id='portofolio-4' href='https://qois-69912.github.io/portofolio/'>
+                   <img class='image-portofolio' src="./src/projects/qois-portofolio.png">
+                   <p class='project-keterangan'>Website Qois</p>
+               </a>
+
+
+                <button class='tombol-panah' id='kanan' onclick='action(this.id)'>
+                    <img class='gambar-panah' src="./src/panah-kanan.svg">
+                </button>
             </div>
-            <p id='keterangan-portofolio' class='project-keterangan'>Portofolio Francisco</p>
+
         </div>
+
 
         <div class='project'>
             <h2 class='judul-project'>Website Pilketos</h2>
-            <a href='https://github.com/fivecybercommunity/Front-End-Pilketos'><img class='project-image' src="./src/projects/website-pilketos.png" alt=""></a>
-            <p class='project-keterangan'>Keterangan</p>
+            <a class='project-card' href='https://github.com/fivecybercommunity/Front-End-Pilketos'>
+                <img class='pilketos-image' src="./src/projects/website-pilketos.png">
+                <p class='project-keterangan'>Kode Website Pilketos</p>
+            </a>
         </div>
     </div>
 </body>
