@@ -4,7 +4,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 150px;
+  padding-top: 10.98vw;
   background-image: radial-gradient(#212121, #000000);
 }
 
@@ -12,32 +12,32 @@ h1 {
   color: #ffffff;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
-  font-size: 67px;
-  margin-bottom: 1px;
+  font-size: 4.904vw;
+  margin-bottom: 0.0732vw;
 }
 
 p {
   font-family: "Roboto", sans-serif;
   color: #ffffff;
-  margin-bottom: 30px;
+  margin-bottom: 2.196vw;
 }
 
 .judul {
-  margin-right: 250px;
-  max-height: 2000px;
+  margin-right: 18.301vw;
+  max-height: 146.412vw;
 }
 
 .tombol-explore {
   text-decoration: none;
   font-family: "Roboto", sans-serif;
   color: #fcb632;
-  border: 1.7px solid #686868;
-  width: 100px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 17px;
-  padding-right: 17px;
-  margin-top: 1000px;
+  border: 0.1244vw solid #686868;
+  width: 7.32vw;
+  padding-top: 0.732vw;
+  padding-bottom: 0.732vw;
+  padding-left: 1.244vw;
+  padding-right: 1.244vw;
+  margin-top: 73.2vw;
 }
 
 .tombol-explore:hover {
@@ -53,13 +53,13 @@ p {
 }
 .kanan p {
   text-align: center;
-  max-width: 10px;
+  max-width: 0.732vw;
   font-family: "Roboto", sans-serif;
   color: #ffffff;
 }
 .kanan img {
-  width: 500px;
-  height: 500px;
+  width: 36vw;
+  height: 36vw;
 }
 
 @media (max-width: 480px) {

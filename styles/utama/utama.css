@@ -22,7 +22,7 @@ h2, h3, h4, p {
 .subjudul {
   font-weight: 400;
   color: #FCB632;
-  margin-top: 0px;
+  margin-top: 0vw;
 }
 
 b {
@@ -41,9 +41,9 @@ b {
 h3 {
   display: flex;
   justify-content: center;
-  margin-top: 175px;
-  margin-bottom: 100px;
-  font-size: 22px;
+  margin-top: 12.8vw;
+  margin-bottom: 7.32vw;
+  font-size: 1.61vw;
 }
 
 .divisi {
@@ -61,18 +61,18 @@ h3 {
   flex-direction: column;
   color: #FFFFFF;
   text-align: right;
-  width: 300px;
+  width: 21.9619326501vw;
   background-image: linear-gradient(to bottom, #141414, #000000);
-  padding-right: 35px;
-  padding-left: 35px;
+  padding-right: 2.562vw;
+  padding-left: 2.562vw;
 }
 
 .logo-developer {
-  width: 250px;
+  width: 18.301vw;
 }
 
 .logo-designer {
-  width: 260px;
+  width: 19.033vw;
 }
 
 .penjelasandivisi {
@@ -84,8 +84,8 @@ h3 {
 }
 
 .judulutama {
-  font-size: 45px;
-  margin-bottom: 0px;
+  font-size: 3.29vw;
+  margin-bottom: 0vw;
 }
 
 .tombol-member {
@@ -93,16 +93,16 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 175px;
+  margin-top: 12.811vw;
   text-decoration: none;
   font-family: "Roboto", "sans-serif";
   font-weight: 400;
-  border: 1.7px solid #686868;
-  width: 100px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 17px;
-  padding-right: 17px;
+  border: 0.124vw solid #686868;
+  width: 7.32vw;
+  padding-top: 0.732vw;
+  padding-bottom: 0.732vw;
+  padding-left: 1.244vw;
+  padding-right: 1.244vw;
 }
 
 .tombol-member:hover {
