@@ -4,10 +4,87 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Members</title>
     <link rel="stylesheet" href="styles/anggota/anggota.css">
+    <script src='./scripts/anggota.js'></script>
 </head>
 <body>
-    
+    <h1>MEMBERS</h1>
+
+
+    <!-- -----------------------------------------------------------------------  -->
+
+
+    <div id='profil' class='profil-anggota'>
+        <button id='kiri' class='tombol-panah' onclick='action(this.id);'>
+            <img class='gambar-panah'src="./src/panah-kiri.svg">
+        </button>
+
+
+            <div class='detail-anggota' id='anggota-1'>
+                <img class='foto-anggota' src="./src/anggota/qois.jpg">
+                <div class='info-anggota'>
+                    <p class='nama-anggota'>Qois Firosi</p>
+                    <a href="https://github.com/Qois-69912"><img class='gambar-github'src="./src/github-logo.png"></a>
+                </div>
+            </div>
+
+            <div class='detail-anggota' id='anggota-2'>
+                <img class='foto-anggota' src="./src/anggota/razi.jpg">
+                <div class='info-anggota'>
+                    <p class='nama-anggota'>Muhammad Ibrahim Ar Razi</p>
+                    <a href="https://github.com/Rzyyyyy"><img class='gambar-github'src="./src/github-logo.png"></a>
+                </div>
+            </div>
+
+            <div class='detail-anggota' id='anggota-3'>
+                <img class='foto-anggota' src="./src/anggota/gya.jpg">
+                <div class='info-anggota'>
+                    <p class='nama-anggota'>Syafi Gyaneswar Harshavardana</p>
+                    <a href="https://github.com/syafigya"><img class='gambar-github'src="./src/github-logo.png"></a>
+                </div>
+            </div>
+
+            <div class='detail-anggota' id='anggota-4'>
+                <img class='foto-anggota' src="./src/anggota/rafi.jpg">
+                <div class='info-anggota'>
+                    <p class='nama-anggota'>Rafi</p>
+                    <p class='nama-anggota'>?</p>
+                </div>
+            </div>
+
+
+        <button id='kanan' class='tombol-panah' onclick='action(this.id);'>
+            <img class='gambar-panah'src="./src/panah-kanan.svg">
+        </button>
+    </div>
+
+
+    <!-- -----------------------------------------------------------------------  -->
+
+
+    <div class='list-anggota'>
+        <button id='1' class='tombol-anggota' onclick=checkAnggota(this.id)>
+            <img class='gambar-tombol'src="./src/anggota/qois.jpg">
+        </button>
+
+        <button id='2' class='tombol-anggota' onclick=checkAnggota(this.id)>
+            <img class='gambar-tombol'src="./src/anggota/razi.jpg">
+        </button>
+
+        <button id='3' class='tombol-anggota' onclick=checkAnggota(this.id)>
+            <img class='gambar-tombol'src="./src/anggota/gya.jpg">
+        </button>
+
+        <button id='4' class='tombol-anggota' onclick=checkAnggota(this.id)>
+            <img class='gambar-tombol'src="./src/anggota/rafi.jpg">
+        </button>
+    </div>
+
+
+    <!-- -----------------------------------------------------------------------  -->
+
+
+    <p id='marker' style='display: none;'>hello</p>
 </body>
 </html>

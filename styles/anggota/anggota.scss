@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4vw;
+
+    background-color: #000000;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* ----------------------------------------------------- */
+
+
+h1 {
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 3vw;
+}
+
+
+/* ----------------------------------------------------- */
+
+
+.profil-anggota {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+}
+
+.tombol-panah {
+    border: none;
+    background-color: transparent;
+}
+
+
+.detail-anggota {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4vw;
+
+    background-color: #171717;
+
+    padding: 6.6vw;
+}
+
+.info-anggota {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4vw;
+
+}
+
+.foto-anggota {
+    width: 32vw;
+}
+
+.nama-anggota {
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff;
+    font-size: 3vw;
+    margin: 1vw 0 0vw 0;
+}
+
+.gambar-github {
+    width: 6vw;
+}
+
+
+/* ----------------------------------------------------- */
+
+
+.tombol-anggota {
+    border: none;
+    background-color: transparent;
+}
+
+.gambar-tombol {
+    width: 10vw;
+    border-radius: 32%;
+}
+
+
+
+/* ----------------------------------------------------- */
+
+
+@import 'layout'

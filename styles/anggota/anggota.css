@@ -1,1 +1,125 @@
-/* No CSS *//*# sourceMappingURL=anggota.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4vw;
+  background-color: #000000;
+  font-family: "Roboto", sans-serif;
+}
+
+/* ----------------------------------------------------- */
+h1 {
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 3vw;
+}
+
+/* ----------------------------------------------------- */
+.profil-anggota {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  gap: 3vw;
+}
+
+.tombol-panah {
+  border: none;
+  background-color: transparent;
+}
+
+.detail-anggota {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4vw;
+  background-color: #171717;
+  padding: 6.6vw;
+}
+
+.info-anggota {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4vw;
+}
+
+.foto-anggota {
+  width: 32vw;
+}
+
+.nama-anggota {
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  font-size: 3vw;
+  margin: 1vw 0 0vw 0;
+}
+
+.gambar-github {
+  width: 6vw;
+}
+
+/* ----------------------------------------------------- */
+.tombol-anggota {
+  border: none;
+  background-color: transparent;
+}
+
+.gambar-tombol {
+  width: 10vw;
+  border-radius: 32%;
+}
+
+/* ----------------------------------------------------- */
+@media (min-width: 768px) {
+  .gambar-panah {
+    width: 2.6vw;
+  }
+}
+/* ----------------------------------------------- */
+@media (min-width: 1024px) {
+  h1 {
+    font-size: 1.2vw;
+  }
+
+  .profil-anggota {
+    gap: 3vw;
+  }
+
+  .gambar-panah {
+    width: 1.2vw;
+  }
+
+  .detail-anggota {
+    flex-direction: row;
+    gap: 5vw;
+    padding: 2vw;
+  }
+
+  .info-anggota {
+    gap: 1.6vw;
+  }
+
+  .foto-anggota {
+    width: 17vw;
+  }
+
+  .nama-anggota {
+    font-size: 1.5vw;
+    margin: 1vw 0 0vw 0;
+  }
+
+  .gambar-github {
+    width: 2.6vw;
+  }
+
+  .gambar-tombol {
+    width: 4vw;
+  }
+}
+
+/*# sourceMappingURL=anggota.css.map */

@@ -1,0 +1,55 @@
+@media (min-width: 768px) {
+    .gambar-panah {
+        width: 2.6vw;
+    }
+}
+
+
+/* ----------------------------------------------- */
+
+
+@media (min-width: 1024px) {
+    h1 {
+        font-size: 1.2vw;
+    }
+
+
+
+    .profil-anggota {
+        gap: 3vw;
+    }
+
+    .gambar-panah {
+        width: 1.2vw;
+    }
+    
+    .detail-anggota {
+        flex-direction: row;
+        gap: 5vw;
+    
+        padding: 2vw;
+    }
+    
+    .info-anggota {
+        gap: 1.6vw;
+    
+    }
+    
+    .foto-anggota {
+        width: 17vw;
+    }
+    
+    .nama-anggota {
+        font-size: 1.5vw;
+        margin: 1vw 0 0vw 0;
+    }
+    
+    .gambar-github {
+        width: 2.6vw;
+    }
+
+
+    .gambar-tombol {
+        width: 4vw;
+    }
+}
