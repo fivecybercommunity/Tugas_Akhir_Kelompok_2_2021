@@ -4,7 +4,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 10.98vw;
+  padding-top: 7.9vw;
   background-image: radial-gradient(#212121, #000000);
 }
 
@@ -12,7 +12,7 @@ h1 {
   color: #ffffff;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
-  font-size: 4.904vw;
+  font-size: 6vw;
   margin-bottom: 0.0732vw;
 }
 
@@ -20,6 +20,7 @@ p {
   font-family: "Roboto", sans-serif;
   color: #ffffff;
   margin-bottom: 2.196vw;
+  font-size: 1.4vw;
 }
 
 .judul {
@@ -38,6 +39,7 @@ p {
   padding-left: 1.244vw;
   padding-right: 1.244vw;
   margin-top: 73.2vw;
+  font-size: 1.4vw;
 }
 
 .tombol-explore:hover {
@@ -93,4 +95,6 @@ p {
   .kanan {
     display: none;
   }
-}/*# sourceMappingURL=styles.css.map */
+}
+
+/*# sourceMappingURL=styles.css.map */
