@@ -18,3 +18,10 @@ Anggota (V'24):
 
 # Final Say (Raden Francisco Trianto Bratadiningrat)
 All and all the result were amazing and out of my expectation as they were new to the world of programming especially Web Developer. They really learn the things I have taught them before and really deserve to be a member of FCC. I hope they can develop their intrest towards Programming into bigger worlds, even further and not only explore the world of Web Developing but also many big world like the world of Programming or even Competitive Programming. This has been a success and I wish all of them good luck in their future!
+
+# All Skilles Given and Learned
+1. Teamwork & communication
+2. Leadership
+3. Creativity
+4. Git & Github
+5. Front-end ( HTML, CSS, SCSS, Javascript )
