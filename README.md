@@ -1,5 +1,6 @@
 # Tugas_Akhir_Kelompok_2_2021
 Tugas Akhir Calon Anggota FCC 2021  
+Tugas Membuat website profil FCC serta Anggotanya
 
 Tugas ini sebagai media pembelajaran angkatan bawah untuk mulai berkerja sama bersama tim dan melatih ketrampilan dasar dalam membuat website
 
